@@ -633,8 +633,8 @@ public class GeyserSession implements GeyserConnection, CommandSender {
     }
 
     public void authenticate(String username) {
-        String crispynetwork = username.replaceAll(" ", "_");
-        authenticate(crispynetwork "");
+        String crispy = username.replaceAll(" ", "_");
+        authenticate(crispy "");
     }
 
     public void authenticate(String username, String password) {
